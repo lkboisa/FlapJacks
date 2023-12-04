@@ -14,8 +14,8 @@ name = input("What is your name \n")
 print("\nWelcome " + name + ", Thank you for joining us")
 input("To continue press enter \n")
 
-menu = "Black coffee, Espresso, Latte, Cappucino"
+menu = "Black Coffee, Espresso, Latte, Cappucino\n"
 
 print(name + ", What sort of coffee would you like to try today? \n" + menu)
 order = input()
-print("Thank You " + name + ".\nWe'll have that " + order + " ready for you in a minute") 
+print("\nThank You " + name + ".\nWe'll have that " + order + " ready for you in a minute") 
