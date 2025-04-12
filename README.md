@@ -1,6 +1,6 @@
 #FlapJacks the game
 
-#There was a bit of a process to get my code uploaded to github. This is the steps that were taken:
+#There was a bit of a process to get my code uploaded to github. This is the steps that were taken:  <bk>
 #Installed and configured Git with:
 <sudo apt install git>
 <git config --global user.name "Username">
@@ -14,8 +14,6 @@
 <git remote add orgin https://github.com/lkboisa/FlapJacks.git>
 
 #Staged Files:
-<git add .>
-
 #commit files:
 <git commit -m "first commit">
 
@@ -31,7 +29,7 @@
 <git push>
 _______________________________________________________________________________________
 
-#Note to stage the file you either stage file:
+#Note to stage the file you either stage file:  
 <git add <file_name> 
 #or stage directory:
 <git add .>
