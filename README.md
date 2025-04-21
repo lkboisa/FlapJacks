@@ -13,10 +13,16 @@
 #linked project with the repository: <br>
 <git remote add orgin https://github.com/lkboisa/FlapJacks.git>
 
-#Staged Files: <br>
+#Staged files for entire folder: <br>
 <git add.>
+#For individual files: <br>
+<git add file>
 #commit files: <br>
 <git commit -m "first commit">
+
+#In order to commit files that have been modified you can skip the "git add" and just use the -a flag so: <br>
+<git commit -a -m "commit comment">
+#(-m is for the message)
 
 #created a keypair: <br>
 <ssh-keygen -t ed25519 -C "lkboisa@yahoo.com">
