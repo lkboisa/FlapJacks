@@ -11,7 +11,7 @@
 <git init>
 
 #linked project with the repository: <br>
-<git remote add orgin https://github.com/lkboisa/FlapJacks.git>
+<git remote add origin https://github.com/lkboisa/FlapJacks.git>
 
 #Staged files for entire folder: <br>
 <git add.>
@@ -30,7 +30,7 @@
 #Grabbed the public key from ~/.ssh/id_ed25519.pub and pasted (contaent of entire file) to Github.com/lkboisa/FlapJacks/Settings/Deploy Keys/Add deploy keys
 
 #push code: <br>
-<git push -u orgin main>
+<git push -u origin main>
 
 #Note you only need to push use the entire above push code once, as after that git knows you want to push the code and you can just use: <br>
 <git push>
@@ -46,4 +46,5 @@ ________________________________________________________________________________
 
 #To upload to the server:
 <git push>
+
 
