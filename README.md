@@ -1,7 +1,7 @@
 #FlapJacks the game!
 
-#There was a bit of a process to get my code uploaded to github. This is the steps that were taken: \\
-#Installed and configured Git with: \\
+#There was a bit of a process to get my code uploaded to github. This is the steps that were taken. \\
+#Installed and configured Git with. \\
 <sudo apt install git>  
 <git config --global user.name "Username">  
 <git config --global user.email "email@email.com">  
