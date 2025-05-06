@@ -1,12 +1,11 @@
-#FlapJacks the game
+#FlapJacks the game!
 
-#There was a bit of a process to get my code uploaded to github. This is the steps that were taken: <br>
-#Installed and configured Git with <bk>
-\\\
-sudo apt install git
-git config --global user.name "Username"
-git config --global user.email "email@email.com"  
-\\\
+#There was a bit of a process to get my code uploaded to github. This is the steps that were taken:  <br>
+#Installed and configured Git with: <br>
+<sudo apt install git> <br>
+<git config --global user.name "Username"> <br>
+<git config --global user.email "email@email.com"> <br>
+
 #I had already created a github account but added the repository "FlapJacks"
 #Initialized the Directory (~/Documents/network/python): <br>
 <git init>
@@ -48,4 +47,5 @@ ________________________________________________________________________________
 #To upload to the server:
 <git push>
 
-
+#To revert to an old version use:
+<git checkout <commit-hash> -- filename.extension 
