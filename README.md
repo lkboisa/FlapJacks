@@ -1,4 +1,4 @@
-#FlapJacks the game
+#FlapJacks the game!
 
 #There was a bit of a process to get my code uploaded to github. This is the steps that were taken:  <br>
 #Installed and configured Git with: <br>
