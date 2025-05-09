@@ -1,17 +1,20 @@
 # Tyler and Dad's Python script
 import os
 import random
+import time
 
 print("Welcome to Tyler and Dad's lab at home")
 name = input("What is your name?\n")
 
 # Preventing certain players from accessing the game
 if name.lower() in ["ralph", "ryan", "tyler", "brandon", ""]:
+    os.system('cls' if os.name == 'nt' else 'clear')
     print("You're not allowed to play this game :(")
+    time.sleep(3)
     exit()
 else:  
     os.system('cls' if os.name == 'nt' else 'clear')    
-    print("Hello " + name + ", Welcome to BublyTyler the game\n\nTo play, answer 5 trivia questions!\nYou will have 3 attempts to land the correct answer.\nEach correct answer awards 5 points but each wrong answer will take away 2.\nWould you like to play?")
+    print("Hello " + name + ", Welcome to BublyTyler the game\n\nTo play, answer 5 trivia questions!\nYou will have 3 attempts to land the correct answer.\nEach correct answer awards 5 points but each wrong answer will take away 2.\n\nWould you like to play?")
 
 # Initialize player score
 score = 0  
@@ -31,7 +34,12 @@ while True:
             "What do you call the thinnest and smallest blood vessels?": ("Capillaries",),
             "What do meat, milk, and eggs provide in our diet?": ("Protein",),
             "It is 7 miles to the train, then 33 miles to town. How long is the round trip?": ("80 miles", "eighty miles", "eighty", "80"),
-            "What is the highest rank in the U.S. Navy?": ("Admiral",)
+            "What is the highest rank in the U.S. Navy?": ("Admiral",),
+            "What liquid food do bees get from flowers?": ("Nectar",),
+            "Which has the most gravity: a supernova, a white dwarf, or a black whole?": ("A black whole", "black whole"),
+            "Samurai were warriors in what country?": ("Japan",),
+            "What do we call the galaxy that includes our solar system?": ("The Milky Way", "Milky Way"),
+            "Victoria, Edmonton and Toronto are cities in what country?": ("Canada",)
     }
         questions_list = list(questions.items()) #convert dictionary to a list
         random.shuffle(questions_list)           #shuffle list
@@ -54,9 +62,10 @@ while True:
                     print(f"Woops, that's not right! {attempts} attempts left.")
             
             if attempts == 0:
-                print(f"Out of attempts! The correct answer was: {a}\n")
+                print(f"Out of attempts! The correct answer was: {a[0]}\n")
         
         print(f"Thanks for playing {name}! Your final score is {score}/25")
+        time.sleep(6)
         exit()
                 
     elif play_game == "no":
